@@ -11,6 +11,7 @@
 		23BD052927985E930002C82E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BD052827985E930002C82E /* ContentView.swift */; };
 		23BD052B27985E940002C82E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23BD052A27985E940002C82E /* Assets.xcassets */; };
 		23BD052E27985E940002C82E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23BD052D27985E940002C82E /* Preview Assets.xcassets */; };
+		23BD053527985FED0002C82E /* TextValidatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BD053427985FED0002C82E /* TextValidatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		23BD052827985E930002C82E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		23BD052A27985E940002C82E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23BD052D27985E940002C82E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		23BD053427985FED0002C82E /* TextValidatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextValidatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				23BD052627985E930002C82E /* swiftCombineApp.swift */,
 				23BD052827985E930002C82E /* ContentView.swift */,
+				23BD053427985FED0002C82E /* TextValidatorView.swift */,
 				23BD052A27985E940002C82E /* Assets.xcassets */,
 				23BD052C27985E940002C82E /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23BD052927985E930002C82E /* ContentView.swift in Sources */,
+				23BD053527985FED0002C82E /* TextValidatorView.swift in Sources */,
 				23BD052727985E930002C82E /* swiftCombineApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

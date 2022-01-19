@@ -7,10 +7,12 @@
 
 import SwiftUI
 
+
+
 struct ContentView: View {
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Text("Will Link all the examples from this view")
     }
 }
 

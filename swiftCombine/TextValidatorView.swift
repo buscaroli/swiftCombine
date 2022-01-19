@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-class TextValidatorViewModel: ObservableObject {
+fileprivate class TextValidatorViewModel: ObservableObject {
     @Published var userText: String = ""
     @Published var validation: String = ""
     

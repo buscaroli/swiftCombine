@@ -12,8 +12,21 @@ import SwiftUI
 struct ContentView: View {
     
     var body: some View {
-        Text("Will Link all the examples from this view")
+        
+        NavigationView {
+            List{
+                NavigationLink("Text Validator with .assign()", destination: TextValidatorView())
+                NavigationLink("Text Validator with .sink()", destination: TextValidatorWithSink())
+                NavigationLink("Text Validator that cancels multiple pipelines", destination: TextValidatorCancelMultiplePipelinesView())
+
+                    
+            }
+            .listStyle(.plain)
+            .navigationTitle("Combine examples.")
+            .padding(.top, 40)
+        }
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {

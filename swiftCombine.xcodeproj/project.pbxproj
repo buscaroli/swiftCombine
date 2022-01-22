@@ -14,6 +14,7 @@
 		23BD053527985FED0002C82E /* TextValidatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BD053427985FED0002C82E /* TextValidatorView.swift */; };
 		23BD05372798719E0002C82E /* TextValidatorWithSink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BD05362798719E0002C82E /* TextValidatorWithSink.swift */; };
 		23BD053927987FB70002C82E /* TextValidatorCancelMultiplePipelinesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BD053827987FB70002C82E /* TextValidatorCancelMultiplePipelinesView.swift */; };
+		23C05653279C83640064F0AC /* StopPipelineWithEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C05652279C83640064F0AC /* StopPipelineWithEmptyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		23BD053427985FED0002C82E /* TextValidatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextValidatorView.swift; sourceTree = "<group>"; };
 		23BD05362798719E0002C82E /* TextValidatorWithSink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextValidatorWithSink.swift; sourceTree = "<group>"; };
 		23BD053827987FB70002C82E /* TextValidatorCancelMultiplePipelinesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextValidatorCancelMultiplePipelinesView.swift; sourceTree = "<group>"; };
+		23C05652279C83640064F0AC /* StopPipelineWithEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopPipelineWithEmptyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				23BD053427985FED0002C82E /* TextValidatorView.swift */,
 				23BD05362798719E0002C82E /* TextValidatorWithSink.swift */,
 				23BD053827987FB70002C82E /* TextValidatorCancelMultiplePipelinesView.swift */,
+				23C05652279C83640064F0AC /* StopPipelineWithEmptyView.swift */,
 				23BD052A27985E940002C82E /* Assets.xcassets */,
 				23BD052C27985E940002C82E /* Preview Content */,
 			);
@@ -148,6 +151,7 @@
 			files = (
 				23BD052927985E930002C82E /* ContentView.swift in Sources */,
 				23BD053927987FB70002C82E /* TextValidatorCancelMultiplePipelinesView.swift in Sources */,
+				23C05653279C83640064F0AC /* StopPipelineWithEmptyView.swift in Sources */,
 				23BD053527985FED0002C82E /* TextValidatorView.swift in Sources */,
 				23BD05372798719E0002C82E /* TextValidatorWithSink.swift in Sources */,
 				23BD052727985E930002C82E /* swiftCombineApp.swift in Sources */,

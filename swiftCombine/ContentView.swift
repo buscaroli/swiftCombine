@@ -18,7 +18,7 @@ struct ContentView: View {
                 NavigationLink("Text Validator with .assign()", destination: TextValidatorView())
                 NavigationLink("Text Validator with .sink()", destination: TextValidatorWithSink())
                 NavigationLink("Text Validator that cancels multiple pipelines", destination: TextValidatorCancelMultiplePipelinesView())
-
+                NavigationLink("Stop a Pipeline with the Empty Publisher", destination: StopPipelineWithEmptyView())
                     
             }
             .listStyle(.plain)
